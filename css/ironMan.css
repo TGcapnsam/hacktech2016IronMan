@@ -1,3 +1,5 @@
+
+
 * { box-sizing: border-box; }
 
 body { font-family: sans-serif; }
@@ -73,7 +75,7 @@ body { font-family: sans-serif; }
 
 }
 
-/* Inline row */
+/* Inline row and other attempts at centering */
 #detail {padding: 50px; width: 100%;}
 #list {padding: 50px; width: 100%;}
 
@@ -106,6 +108,80 @@ p { color: white;}
    position: absolute;
     top: 50%;
     left: 55%;
+}
+
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- Glowing search screen ---- */
+.searchContainer {
+  position: fixed;
+}
+
+
+
+input {
+  width: 400px;
+  border-radius: 5px;
+  border: 3px solid #FFFFFF;
+  color: white;
+  background-color: transparent;
+  box-shadow: inset 0 0 7px #ffffff, /* inner white */
+  inset 2.5px 0 20px rgba(84, 217, 255, 0.53), /* inner left magenta short */
+  inset -5px 0 15px rgba(84, 217, 255, 0.53), /* inner right cyan short */
+  inset 2.5px 0 75px rgba(84, 217, 255, 0.23), /* inner left magenta broad */
+  inset -10px 0 75px rgba(84, 217, 255, 0.23), /* inner right cyan broad */
+  0 0 7px #fff, /* outer white */
+  -3px 0 20px rgba(84, 217, 255, 0.93), /* outer left magenta */
+  3px 0 20px rgba(84, 217, 255, 0.93);
+  /* outer right cyan */
+}
+
+button {
+  width: 50px;
+  box-shadow: inset 0 0 7px #ffffff, /* inner white */
+  inset 2.5px 0 20px rgba(84, 217, 255, 0.53), /* inner left magenta short */
+  inset -5px 0 15px rgba(84, 217, 255, 0.53), /* inner right cyan short */
+  inset 2.5px 0 75px rgba(84, 217, 255, 0.23), /* inner left magenta broad */
+  inset -10px 0 75px rgba(84, 217, 255, 0.23), /* inner right cyan broad */
+  0 0 7px #fff, /* outer white */
+  -3px 0 20px rgba(84, 217, 255, 0.93), /* outer left magenta */
+  3px 0 20px rgba(84, 217, 255, 0.93);
+  /* outer right cyan */
+  border: 3px solid #FFFFFF;
+  color: white;
+  background-color: transparent
+}
+
+textarea {
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  border: 3px solid #FFFFFF;
+  box-shadow: inset 0 0 7px #ffffff, /* inner white */
+  inset 2.5px 0 20px rgba(84, 217, 255, 0.53), /* inner left magenta short */
+  inset -5px 0 15px rgba(84, 217, 255, 0.53), /* inner right cyan short */
+  inset 2.5px 0 75px rgba(84, 217, 255, 0.23), /* inner left magenta broad */
+  inset -10px 0 75px rgba(84, 217, 255, 0.23), /* inner right cyan broad */
+  0 0 7px #fff, /* outer white */
+  -3px 0 20px rgba(84, 217, 255, 0.93), /* outer left magenta */
+  3px 0 20px rgba(84, 217, 255, 0.93);
+  /* outer right cyan */
 }
 
 
