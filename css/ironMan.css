@@ -1,0 +1,87 @@
+
+<style>
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+/* ---- container ---- */
+
+.container {
+  background: grey;
+}
+
+/* ---- grid ---- */
+
+.grid {
+  background: black;
+  width: 400px;
+  
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 160px;
+  height: 120px;
+  float: left;
+  background: black;
+  margin-bottom: 100px;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  border: 3px solid #FFFFFF;
+
+  box-shadow:
+        inset 0 0 7px #ffffff,      /* inner white */
+        inset 2.5px 0 20px rgba(89,172,255,0.53),   /* inner left magenta short */
+        inset -5px 0 15px rgba(89,172,255,0.53),  /* inner right cyan short */
+        inset 2.5px 0 75px rgba(89,172,255,0.23),  /* inner left magenta broad */
+        inset -10px 0 75px rgba(89,172,255,0.23), /* inner right cyan broad */
+        0 0 7px #fff,            /* outer white */
+        -3px 0 20px rgba(89,172,255,0.93),        /* outer left magenta */
+        3px 0 20px rgba(89,172,255,0.93);         /* outer right cyan */
+ 
+  
+}
+
+.grid-item--width2 { width: 40px; }
+.grid-item--width3 { width: 120px; }
+.grid-item--width4 { width: 50px; }
+
+.grid-item--height2 { height: 60px; }
+.grid-item--height3 { height: 70px; }
+.grid-item--height4 { height: 160px; }
+
+
+.grid-item--gigante {
+  width: 320px;
+  height: 360px;
+  z-index: 2; /* above other items */
+/*   display: none; */
+}
+
+.grid-item:hover {
+  background: rgba(150, 210, 255, 0.8);
+  border-color: white;
+  cursor: pointer;
+
+}
+
+/* Inline row */
+#detail {padding: 50px;float:left; width: 600px;}
+#list {padding: 50px;float:left; width: 600px;}
+
+#detail .grid-item {
+  width: 400px;
+  height: 485px;
+}
+
+</style>
