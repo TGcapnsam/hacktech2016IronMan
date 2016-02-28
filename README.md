@@ -3,6 +3,8 @@
 
 #### File description
 - small_parser.py is a parser that parse through the data of linkedin
+	- if b4 no found
+		- use pip to install beautiful soup 4
 - main.py is a program that use the url of a person in linkedin and download the html webpage. call the small_parser to parse it.
 - get_image_from_google is used for using the name of the person in linkedin to search google gallery. get the top 20 result. and download them.
 - webpage.py is used as the main program of flask(a python framework for building website)
