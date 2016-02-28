@@ -15,4 +15,4 @@
 	- if the value returned is bigger than 200, than the two picture is not the same person. else the person is the same.
 	
 - The icon.jpg file is crawl from linkedin using small_parser. and will be the base image when trying to compare with the other picture.
-- 
+ 
