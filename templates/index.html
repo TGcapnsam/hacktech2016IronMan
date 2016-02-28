@@ -1,0 +1,27 @@
+<head>
+<link rel="stylesheet" type="text/css" href="./static/css/ironMan.css">
+</head>
+
+<script src="http://js.leapmotion.com/leap-0.6.3.min.js"></script>
+
+
+<div class="container">
+
+  <div class="profile">
+  </div>
+  
+  <div class="grid grid1" id="list">
+    {% for i in data %}
+		<div class="grid-item grid-item--width2 grid-item--height2"><img src="{{ i['val'] }}"></div>
+	{% endfor%}
+ 
+  </div>
+  
+  <div class="grid grid2" id="detail">
+   
+    <div class="grid-item grid-item--height2"><img src="./static/icon.jpg" class="grid-item grid-item--height2"></div>
+  </div>
+</div>
+
+
+<script src="./static/js/ironMan.js"></script>
