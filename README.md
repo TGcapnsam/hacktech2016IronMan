@@ -1,5 +1,5 @@
 ### hacktech2016IronMan
-	Bin, Jeff, Phat, Sam
+	Bin Peng, Jeff shaw, Phat, Sam
 
 #### File description
 - small_parser.py is a parser that parse through the data of linkedin
