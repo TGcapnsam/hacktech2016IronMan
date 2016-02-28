@@ -2,6 +2,7 @@
 	Bin Peng, Jeff shaw, Phat, Sam
 
 #### File description
+- convert_name_to_url file has a function that can convert the name string and form a url we need
 - small_parser.py is a parser that parse through the data of linkedin
 	- if b4 no found
 		- use pip to install beautiful soup 4
