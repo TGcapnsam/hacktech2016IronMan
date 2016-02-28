@@ -43,7 +43,7 @@ function setImgEltsStyle()
     
     //TODO
     //This is where we set the image to whatever the value is in the small rectangle
-    putImageHere[0].style.content = "url(http://placehold.it/350x100)";
+    putImageHere[0].style.content = "url(http://placehold.it/350x150)";
 
     //list[listIndex].src;
 }
@@ -134,25 +134,5 @@ Leap.loop(controllerOptions, function(frame) {
     // Store frame for motion functions
     previousFrame = frame;
 })
-
-// external js: masonry.pkgd.js
-
-var grid = document.querySelector('#list');
-var msnry = new Masonry(grid, {
-  columnWidth: 100
-  gutter: 10
-
-});
-
-grid.addEventListener('click', function(event) {
-  // don't proceed if item was not clicked on
-  if (!matchesSelector(event.target, '.grid-item')) {
-    return;
-  }
-  // change size of item via class
-  event.target.classList.toggle('grid-item--gigante');
-  // trigger layout
-  msnry.layout();
-});
 
 // </script>
