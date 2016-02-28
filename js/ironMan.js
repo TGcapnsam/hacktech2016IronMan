@@ -43,7 +43,7 @@ function setImgEltsStyle()
     
     //TODO
     //This is where we set the image to whatever the value is in the small rectangle
-    putImageHere[0].style.content = "url(http://placehold.it/350x150)";
+    putImageHere[0].style.content = "url(http://placehold.it/350x100)";
 
     //list[listIndex].src;
 }

@@ -1,5 +1,3 @@
-
-<style>
 * { box-sizing: border-box; }
 
 body { font-family: sans-serif; }
@@ -29,8 +27,8 @@ body { font-family: sans-serif; }
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 160px;
-  height: 120px;
+  width: 60px;
+  height: 50px;
   float: left;
   background: black;
   margin-bottom: 100px;
@@ -41,24 +39,24 @@ body { font-family: sans-serif; }
 
   box-shadow:
         inset 0 0 7px #ffffff,      /* inner white */
-        inset 2.5px 0 20px rgba(89,172,255,0.53),   /* inner left magenta short */
-        inset -5px 0 15px rgba(89,172,255,0.53),  /* inner right cyan short */
-        inset 2.5px 0 75px rgba(89,172,255,0.23),  /* inner left magenta broad */
-        inset -10px 0 75px rgba(89,172,255,0.23), /* inner right cyan broad */
+        inset 2.5px 0 20px rgba(84, 217,255,0.53),   /* inner left magenta short */
+        inset -5px 0 15px rgba(84, 217,255,0.53),  /* inner right cyan short */
+        inset 2.5px 0 75px rgba(84, 217,255,0.23),  /* inner left magenta broad */
+        inset -10px 0 75px rgba(84, 217,255,0.23), /* inner right cyan broad */
         0 0 7px #fff,            /* outer white */
-        -3px 0 20px rgba(89,172,255,0.93),        /* outer left magenta */
-        3px 0 20px rgba(89,172,255,0.93);         /* outer right cyan */
+        -3px 0 20px rgba(84, 217,255,0.93),        /* outer left magenta */
+        3px 0 20px rgba(84, 217,255,0.93);         /* outer right cyan */
  
   
 }
 
 .grid-item--width2 { width: 40px; }
-.grid-item--width3 { width: 120px; }
-.grid-item--width4 { width: 50px; }
+.grid-item--width3 { width: 20px; }
+.grid-item--width4 { width: 30px; }
 
-.grid-item--height2 { height: 60px; }
-.grid-item--height3 { height: 70px; }
-.grid-item--height4 { height: 160px; }
+.grid-item--height2 { height: 20px; }
+.grid-item--height3 { height: 40px; }
+.grid-item--height4 { height: 60px; }
 
 
 .grid-item--gigante {
@@ -76,12 +74,38 @@ body { font-family: sans-serif; }
 }
 
 /* Inline row */
-#detail {padding: 50px;float:left; width: 600px;}
-#list {padding: 50px;float:left; width: 600px;}
+#detail {padding: 50px; width: 100%;}
+#list {padding: 50px; width: 100%;}
 
 #detail .grid-item {
   width: 400px;
   height: 485px;
 }
 
-</style>
+#detail {
+ 
+}
+
+.profile {
+ 
+  margin-left: 0px;
+  margin: 00px;
+
+
+}
+
+.center-container {
+  width: 50%;
+  margin: auto;
+}
+
+p { color: white;}
+
+
+.profile-info-description {
+   position: absolute;
+    top: 50%;
+    left: 55%;
+}
+
+
